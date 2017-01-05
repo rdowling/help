@@ -17,3 +17,17 @@ TimeStamp: an extension of date, includes date and time values down to the fract
 #### inserting
 INSERT INTO TABLE_NAME(DATE_FIELD)
 VALUES(to_date('2016-01-01 01:01:01', 'yyyy-mm-dd hh24:mi:ss'))
+
+#### { chars | strings | clobs }
+100 left-most characters
+* select substr(message, -100) from alerts order by alertid;
+100 right-most characters
+* select substr(message, 100) from alerts order by alertid;
+
+JDBC inserting a clob value from a clob field using a prepared statment:
+```java
+Clob srcClob = (Clob)value;
+Clob tgtClob = stmt.getConnection().createClob();
+tgtClob.setString(1, srcClob.getSubString(1, (int)srcClob.length()));
+stmt.setClob(icol, tgtClob);
+```
