@@ -23,8 +23,8 @@
 * ctrl-c - kill current process
 
 ### working with files
-* less - paged viewing with vim (ex view lots of git pending changes [git status | less])
-* find - (ex search curdir for file auth.py - [find . -type f -name auth.py])
+* less - paged viewing with vim (ex view lots of git pending changes: `git status | less`)
+* find - (ex search curdir for file auth.py: `find . -type f -name auth.py`)
 
 ## git
 ### sort branches by last commit
