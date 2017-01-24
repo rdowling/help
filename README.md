@@ -1,11 +1,13 @@
 # handy stuff
 
 ## bash (https://www.blockloop.io/mastering-bash-and-terminal)
+
 ### history
 * ctrl-r - reverse search history (reverse-i-search)
 * ctrl-s - forward search history (reverse-i-search)
 * ctrl-p - previous command in history
 * ctrl-n - next command in history
+
 ### cursor movement
 * ctrl-a - move the cursor to the beginning of the current line
 * ctrl-e - move the cursor to the end of the current line
@@ -15,21 +17,23 @@
 * ctrl-u - delete from cursor to the beginning of the line
 * alt-d  - delete the word in front of the cursor
 * ctrl-w - delete the word behind of the cursor
+
 ### processes
 * ctrl-z - send process to background
 * ctrl-c - kill current process
+
 ### working with files
 * less - paged viewing with vim (ex view lots of git pending changes [git status | less])
 * find - (ex search curdir for file auth.py - [find . -type f -name auth.py])
 
 ## git
-### sort branches by last commit:
+### sort branches by last commit
 
 * git for-each-ref --sort=-committerdate refs/heads/
 * git branch --sort=-committerdate    (ver 2.7.0+)
 
 ## oracle
-### reset password:
+### reset password
 ALTER USER me IDENTIFIED BY my_new_password
 
 ### date vs. timestamp
