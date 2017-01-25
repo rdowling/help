@@ -38,20 +38,20 @@
 * `git branch -r`  - list remote branches
 * `git remote show origin` - show all remote branches including tracked and stale
 ```bash
-$> git remote show origin
-> * remote origin
->   Fetch URL: git@gitlab.com:aretedev/m10.git
->   Push  URL: git@gitlab.com:aretedev/m10.git
->   HEAD branch: master
->   Remote branches:
->     4-delete-a-project                          tracked
->     master                                      tracked
->     refs/remotes/origin/1-open-existing-project stale (use 'git remote prune' to remove)
->     refs/remotes/origin/quo                     stale (use 'git remote prune' to remove)
->   Local branch configured for 'git pull':
->     master merges with remote master
->   Local ref configured for 'git push':
->     master pushes to master (up to date)
+&#955; git remote show origin
+  * remote origin
+    Fetch URL: git@gitlab.com:aretedev/m10.git
+    Push  URL: git@gitlab.com:aretedev/m10.git
+    HEAD branch: master
+    Remote branches:
+      4-delete-a-project                          tracked
+      master                                      tracked
+      refs/remotes/origin/1-open-existing-project stale (use 'git remote prune' to remove)
+      refs/remotes/origin/quo                     stale (use 'git remote prune' to remove)
+    Local branch configured for 'git pull':
+      master merges with remote master
+    Local ref configured for 'git push':
+      master pushes to master (up to date)
 ```
 
 ## 
