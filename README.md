@@ -38,7 +38,7 @@
 * `git branch -r`  - list remote branches
 * `git remote show origin` - show all remote branches including tracked and stale
 ```bash
-&#955; git remote show origin
+λ git remote show origin
   * remote origin
     Fetch URL: git@gitlab.com:aretedev/m10.git
     Push  URL: git@gitlab.com:aretedev/m10.git
