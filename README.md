@@ -1,5 +1,6 @@
 # handy stuff
 
+## 
 ## bash (https://www.blockloop.io/mastering-bash-and-terminal)
 
 ### history
@@ -26,6 +27,7 @@
 * `less` - paged viewing with vim (ex view lots of git pending changes: `git status | less`)
 * `find` - find named files (ex search curdir for file auth.py: `find . -type f -name auth.py`)
 
+## 
 ## git
 
 ### sort branches by last commit
