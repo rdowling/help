@@ -1,6 +1,5 @@
 # handy stuff
 
-## 
 ## bash (https://www.blockloop.io/mastering-bash-and-terminal)
 
 ### history
@@ -38,6 +37,7 @@
 * `git branch -a`  - list all branches, local & remote
 * `git branch -r`  - list remote branches
 
+## 
 ## oracle
 
 ### user/schema mgmt 
@@ -64,6 +64,8 @@ tgtClob.setString(1, srcClob.getSubString(1, (int)srcClob.length()));
 stmt.setClob(icol, tgtClob);
 ```
 
+## 
+## other
 
-## markdown
+### markdown
 https://guides.github.com/features/mastering-markdown/
