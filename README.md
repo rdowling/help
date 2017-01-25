@@ -50,9 +50,9 @@
 
 #### { chars | strings | clobs }
 * 100 left-most characters
-.* `select substr(message, -100) from alerts order by alertid;`
+  * `select substr(message, -100) from alerts order by alertid;`
 * 100 right-most characters
-.* `select substr(message, 100) from alerts order by alertid;`
+  * `select substr(message, 100) from alerts order by alertid;`
 
 JDBC inserting a clob value from a clob field using a prepared statment:
 ```java
