@@ -32,6 +32,10 @@
 * git for-each-ref --sort=-committerdate refs/heads/
 * git branch --sort=-committerdate    (ver 2.7.0+)
 
+### list branches
+* git branch -a ~> list all branches, local & remote
+* git branch -r ~> list remote branches
+
 ## oracle
 ### reset password
 ALTER USER me IDENTIFIED BY my_new_password
