@@ -54,6 +54,14 @@
   Local ref configured for 'git push':
     master pushes to master (up to date)
 ```
+* `git remote prune origin` - prune origin branches
+```bash
+λ git remote prune origin
+Pruning origin
+URL: git@gitlab.com:aretedev/m10.git
+ * [pruned] origin/1-open-existing-project
+ * [pruned] origin/quo
+ ```
 
 ## 
 ## oracle
