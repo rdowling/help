@@ -9,32 +9,32 @@
 * ctrl-n - next command in history
 
 ### cursor movement
-* ctrl-a - move the cursor to the beginning of the current line
-* ctrl-e - move the cursor to the end of the current line
-* alt-b  - move the cursor backwards one word
-* alt-f  - move the cursor forward one word
-* ctrl-k - delete from cursor to the end of the line
-* ctrl-u - delete from cursor to the beginning of the line
-* alt-d  - delete the word in front of the cursor
-* ctrl-w - delete the word behind of the cursor
+* ctrl-a   // move the cursor to the beginning of the current line
+* ctrl-e   // move the cursor to the end of the current line
+* alt-b    // move the cursor backwards one word
+* alt-f    // move the cursor forward one word
+* ctrl-k   // delete from cursor to the end of the line
+* ctrl-u   //  delete from cursor to the beginning of the line
+* alt-d    // delete the word in front of the cursor
+* ctrl-w   // delete the word behind of the cursor
 
 ### processes
-* ctrl-z - send process to background
-* ctrl-c - kill current process
+* ctrl-z   // send process to background
+* ctrl-c   // kill current process
 
 ### working with files
-* less - paged viewing with vim (ex view lots of git pending changes: `git status | less`)
-* find - (ex search curdir for file auth.py: `find . -type f -name auth.py`)
+* less   // paged viewing with vim (ex view lots of git pending changes: `git status | less`)
+* find   // find named files (ex search curdir for file auth.py: `find . -type f -name auth.py`)
 
 ## git
-### sort branches by last commit
 
-* git for-each-ref --sort=-committerdate refs/heads/
-* git branch --sort=-committerdate    (ver 2.7.0+)
+### sort branches by last commit
+* git for-each-ref --sort=-committerdate refs/heads/ 
+* git branch --sort=-committerdate    // ver 2.7.0+
 
 ### list branches
-* git branch -a ~> list all branches, local & remote
-* git branch -r ~> list remote branches
+* git branch -a   // list all branches, local & remote
+* git branch -r   // list remote branches
 
 ## oracle
 ### reset password
